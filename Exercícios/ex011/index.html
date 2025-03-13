@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midias</title>
+</head>
+<body>
+  <h1>Imagen Dinâmica</h1>
+  <p>
+    Vamos aprender a criar imagens "flexíveis e dinâmicas"
+  </p>
+  <picture>
+    <source media="(max-width:750px )" srcset="images/P.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="images/M.png" type="image/png">
+    <img src="images/G.png" alt="Flexible Image">
+  </picture>
+
+  <h1>Adicionando aúdio </h1>
+  <p>
+    Vamos aprender a reporduzir audios em HTML5.
+  </p>
+<!--<audio src="midia/song.mp3" controls ></audio> primeiro modo de reproduzir aúdios-->  
+<audio preload="auto" autoplay controls loop>
+  <source src="midia/song.mp3" type="aidio/mpeg">
+  <source src="midia/song.ogg" type="aidio/ogg"> <!--APENAS EXEMPLO-->
+  <p>Infelizmente seu navegador mão pode reporduzir áudio. <a href="midia/song.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+</audio>
+</body>
+</html>
