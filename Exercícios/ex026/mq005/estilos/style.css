@@ -20,16 +20,16 @@ header h1 {
 }
 
 #burguer {
-  background-color: rgb(77, 117, 133);
+  background-color: rgb(98, 152, 173);
   display: block;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 8px;
   cursor: pointer;
 }
 
 #burguer:hover {
-  background-color: rgb(65, 137, 165);
+  background-color: skyblue;
   color:black;
 }
 
